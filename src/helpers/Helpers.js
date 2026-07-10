@@ -34,7 +34,7 @@ const createMatrix = (state, styles) => {
         return null;
     }
     const matrix = state.map( (tetraminos , rowIndex) => {
-        return createTetrominoRow(tetraminos, rowIndex, state, styles);
+        return createTetrominoRow(tetraminos, rowIndex, state, 2 styles);
     });
     return matrix;
 }
